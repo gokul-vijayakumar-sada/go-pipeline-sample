@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gokul_vijayakumar_sada_go_pipeline_sample_1728370626646-push-trigger-input-set
+  identifier: Build_gokul_vijayakumar_sada_go_pipeline_sample_1728370626646pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Trial
+  pipeline:
+    identifier: Build_gokul_vijayakumar_sada_go_pipeline_sample_1728370626646
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
